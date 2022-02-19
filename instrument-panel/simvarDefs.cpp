@@ -63,12 +63,13 @@ const char* SimVarDefs[][2] = {
     { "Cabin Seatbelts Alert Switch", "bool" },
     { "Transponder State:1", "enum" },
     { "Transponder Code:1", "bco16" },
+    // No vars after here required by Radio panel
 
     // Vars for Autopilot panel
     { "Indicated Altitude", "feet" },
     { "Airspeed Indicated", "knots" },
     { "Airspeed Mach", "mach" },
-    { "Plane Heading Degrees Magnetic", "degrees" },
+    { "HEADING INDICATOR", "degrees" },
     { "Vertical Speed", "feet per second" },
     { "Autopilot Available", "bool" },
     { "Autopilot Master", "bool" },
@@ -91,6 +92,7 @@ const char* SimVarDefs[][2] = {
     { "Autopilot Glideslope Hold", "bool" },
     { "General Eng Throttle Lever Position:1", "percent" },
     { "Autothrottle Active", "bool" },
+    // No vars after here required by Autopilot panel
 
     // Remaining vars for Instrument panel
     { "Kohlsman Setting Hg", "inHg" },
@@ -141,7 +143,6 @@ const char* SimVarDefs[][2] = {
     { "Brake Left Position", "percent" },
     { "General Eng Oil Temperature:1", "fahrenheit" },
     { "General Eng Oil Pressure:1", "psi" },
-    { "General Eng Exhaust Gas Temperature:1", "celsius" },
     { "Engine Type", "enum" },
     { "Max Rated Engine RPM", "rpm" },
     { "Turb Eng N1:1", "percent" },
@@ -155,6 +156,11 @@ const char* SimVarDefs[][2] = {
     { "Atc Airline", "string32" },
     { "Atc Flight Number", "string32" },
     { "Atc Heavy", "bool" },
+    { "Gps Position Lat", "degrees" },
+    { "Gps Position Lon", "degrees" },
+    //custom
+    { "ENG EXHAUST GAS TEMPERATURE:1", "rankine" },
+    { "GENERAL ENG FUEL PRESSURE:1", "inHg" },
     // Internal variables must come last
     { "Landing Rate", "internal" },
     { "Skytrack State", "internal" },

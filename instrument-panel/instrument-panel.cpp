@@ -80,6 +80,7 @@
 #include "digitalClock.h"
 #include "fuel.h"
 #include "egt.h"
+#include "MyEGT.h"
 #include "oil.h"
 #include "vac.h"
 #include "nav.h"
@@ -575,6 +576,10 @@ void addInstruments()
         instruments.push_back(new egt(250, 500, 200));
     }
 
+    if (globals.simVars->isEnabled("MyEGT")) {
+        instruments.push_back(new MyEGT(250, 500, 200));
+    }
+
     if (globals.simVars->isEnabled("Oil")) {
         instruments.push_back(new oil(50, 750, 200));
     }
@@ -646,7 +651,7 @@ int main(int argc, char **argv)
                 redraw = true;
                 break;
 
-            case ALLEGRO_EVENT_KEY_DOWN:
+            case ALLEGRO_EVENT_KEY_CHAR:
                 doKeypress(&event);
                 break;
 

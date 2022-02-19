@@ -479,11 +479,11 @@ void simvars::doKeypress(int keycode)
         return;
 
     case ALLEGRO_KEY_LEFT:
-        adjustVar(-1);
+        adjustVar(-5);
         return;
 
     case ALLEGRO_KEY_RIGHT:
-        adjustVar(1);
+        adjustVar(5);
         return;
 
     case ALLEGRO_KEY_PAD_4:

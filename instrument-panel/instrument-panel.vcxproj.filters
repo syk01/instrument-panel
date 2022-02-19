@@ -109,6 +109,7 @@
     <ClCompile Include="instruments\alternate\gForce.cpp">
       <Filter>instruments\alternate</Filter>
     </ClCompile>
+    <ClCompile Include="instruments\myegt.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="instrument.h" />
@@ -218,6 +219,7 @@
     <ClInclude Include="instruments\alternate\gForce.h">
       <Filter>instruments\alternate</Filter>
     </ClInclude>
+    <ClInclude Include="instruments\myegt.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="settings\instrument-panel.json">
@@ -230,6 +232,9 @@
       <Filter>settings</Filter>
     </None>
     <None Include="packages.config" />
+    <None Include="settings\my-instrument-panel.json">
+      <Filter>settings</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="instruments">

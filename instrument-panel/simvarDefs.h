@@ -1,12 +1,9 @@
 #ifndef _SIMVARDEFS_H_
 #define _SIMVARDEFS_H_
-
 #include <stdio.h>
-
 struct SimVars
 {
     double connected = 0;
-
     // All Jetbridge vars must come first
     double apuMasterSw = 0;
     double jbApuStart = 0;
@@ -97,6 +94,7 @@ struct SimVars
     double autothrottleActive = 0;
     // No vars after here required by Autopilot panel
 
+    // Remaining vars for Instrument panel
     double altKollsman = 29.92;
     double adiPitch = 0;
     double adiBank = 0;
@@ -145,7 +143,6 @@ struct SimVars
     double brakePedal = 0;
     double oilTemp = 75;
     double oilPressure = 50;
-    double exhaustGasTemp = 0;
     double engineType = 0;
     double engineMaxRpm = 0;
     double turbineEngineN1 = 0;
@@ -159,6 +156,12 @@ struct SimVars
     char atcCallSign[32] = "\0";
     char atcFlightNumber[32] = "\0";
     double atcHeavy = 0;
+    double gpsLat = 0;
+    double gpsLon = 0;
+    //custom
+    double exhaustGasTemp = 0;
+    double fuelPressure;
+    // Internal variables must come last
     double landingRate = -999;
     double skytrackState = 0;
 };

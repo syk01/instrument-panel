@@ -104,6 +104,8 @@ void instrument::destroyBitmaps()
 /// </summary>
 void instrument::dimInstrument(bool fullDim)
 {
+    return; //never dim light :)
+
     if (fullDim && dim == NULL) {
         dim = loadBitmap("dim.png");
     }
