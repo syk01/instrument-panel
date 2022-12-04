@@ -96,7 +96,7 @@ const bool HaveHardwareKnobs = false;
 #else
 const bool HaveHardwareKnobs = true;
 #endif
-const bool Debug = false;
+const bool Debug = true;
 const bool UseOpenGL_ES3 = false;
 
 struct globalVars globals;

@@ -8,97 +8,97 @@
     "Enabled": true,
     "Position X": 0,
     "Position Y": 0,
-    "Size": 400
+    "Size": 200
   },
   "ADI": {
     "Enabled": true,
-    "Position X": 400,
+    "Position X": 200,
     "Position Y": 0,
-    "Size": 400
+    "Size": 200
   },
   "ALT": {
     "Enabled": true,
-    "Position X": 1200,
+    "Position X": 400,
     "Position Y": 0,
-    "Size": 400
+    "Size": 200
   },
   "VOR1": {
     "Enabled": true,
-    "Position X": 1800,
+    "Position X": 600,
     "Position Y": 0,
-    "Size": 400
+    "Size": 200
   },
   "TC": {
     "Enabled": true,
     "Position X": 0,
-    "Position Y": 400,
-    "Size": 400
+    "Position Y": 200,
+    "Size": 200
   },
   "HI": {
     "Enabled": true,
-    "Position X": 400,
-    "Position Y": 400,
-    "Size": 400
+    "Position X": 200,
+    "Position Y": 200,
+    "Size": 200
   },
   "VSI": {
     "Enabled": true,
-    "Position X": 800,
-    "Position Y": 400,
-    "Size": 400
+    "Position X": 400,
+    "Position Y": 200,
+    "Size": 200
   },
   "Nav": {
     "Enabled": false,
     "Position X": 1800,
-    "Position Y": 800,
+    "Position Y": 600,
     "Size": 2000
   },
   "VAC": {
     "Enabled": true,
     "Position X": 0,
-    "Position Y": 880,
-    "Size": 300
+    "Position Y": 600,
+    "Size": 200
   },
   "RPM": {
     "Enabled": true,
     "Position X": 400,
-    "Position Y": 800,
-    "Size": 400
+    "Position Y": 400,
+    "Size": 200
   },
   "Oil": {
     "Enabled": true,
-    "Position X": 1495,
-    "Position Y": 880,
-    "Size": 300
+    "Position X": 200,
+    "Position Y": 400,
+    "Size": 200
   },
   "MyEGT": {
     "Enabled": true,
-    "Position X": 1130,
-    "Position Y": 880,
-    "Size": 300
+    "Position X": 400,
+    "Position Y": 600,
+    "Size": 200
   },
   "Fuel": {
     "Enabled": true,
-    "Position X": 800,
-    "Position Y": 880,
-    "Size": 300
+    "Position X": 600,
+    "Position Y": 600,
+    "Size": 200
   },
   "VOR2": {
     "Enabled": false,
     "Position X": 1553,
-    "Position Y": 348,
-    "Size": 276
+    "Position Y": 600,
+    "Size": 200
   },
   "Trim Flaps": {
     "Enabled": true,
-    "Position X": 1478,
-    "Position Y": 501,
-    "Size": 280
+    "Position X": 800,
+    "Position Y": 600,
+    "Size": 200
   },
   "ADF": {
     "Enabled": false,
     "Position X": 1556,
     "Position Y": 672,
-    "Size": 266
+    "Size": 200
   },
   "Annunciator": {
     "Enabled": true,
